@@ -1,0 +1,2 @@
+
+We are looking for a software engineering intern with strong fundamentals in Python, machine learning, data structures, and algorithms. Experience with AWS, REST APIs, and system design is a plus.

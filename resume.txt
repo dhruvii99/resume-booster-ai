@@ -1,0 +1,80 @@
+
+Simran Chetiwal
+ Third Year Undergraduate
+ Electrical Engineering
+ Indian Institute of Technology, Mandi
+ Educational Qualifications
+ chetiwalsimran579@gmail.com 
+ Simran Chetiwal 
+ Simran211103 
+ +91-8901035194 
+ Indian Institute of Technology, Mandi
+ B.Tech, Electrical Engineering, 7.63/10.00 (CGPA), 8.48/10(SGPA)
+ Shanti Niketan Public School, Rajasthan
+ CBSE, Class- XII: 92%
+ Cambridge Public School, Bhiwani Rohilla Hisar
+ CBSE Board, Class- X: 95.8%
+ Skills
+ Himachal Pradesh, India
+ November 2021- July 2025
+ Rajasthan, India
+ 2019- 2021
+ Hisar, India
+ 2018- 2019
+ • Programming Languages: C++, Python
+ • Software: Fusion 360, MATLAB, LTSpice
+ • Operating System: Windows, Linux
+ • Relevant Skills: Data Structures and Algorithms, Pyspark, SQL
+ • Frameworks and Tools: HTML, CSS
+ • Programming Tools and IDEs: Git, GitHub, VS Code, Jupyter Notebook, Spyder(Anaconda), Arduino
+ Relevant Courses
+ Programming and Data Science Data Science-2(Probability and Statistics) Data Science-3(Basics of Machine Learning)
+ Linear Algebra
+ Engineering Mathematics
+ Work Experience
+ Signals and Systems
+ Intern in project DNN-based semantic segmentation for detecting weed and crop
+ Mobile-Net, Neural Network, Deep learning, Machine Learning
+ github://Weed Detection and segmentation
+ June 2023- August 2023
+ • It is an open source project, in which we built a model to detect the weed, crop and soil using Mobile-Net.
+ • Trained a model to identify the weed, crop, and soil and further test that model on the Opensprayer dataset.
+ • Successfully achieved the accuracy of 91 percent by training the model and testing it on more than 6000 images and got
+ very accurate semantic segmentation of images determining the weed and crop.
+ Projects
+ Computer Vision-based non-contact flow measurement system
+ OpenCV, Raspberry Pi
+ github://Flood Sensor Development
+ February 2023- May 2023
+ • Awarded O(10.0) grade in the course. This was a team project in which we recorded the videos of the river and processed
+ them and applied OpenCV to calculate water discharge.
+ • Myrole was to integrate the electronic part and write code for the stereovision part used in the project.
+ Chatbot(For clearing doubts of students about college)
+ NLP(Natural Language Processing), Machine Learning
+ • This was a team project in which we collected and converted data into JSON files for our project.
+ github://Chatbot
+ November, 2022
+ • Weutilized the NLTK library to train the model and conducted testing with various questions, receiving responses from the
+ chatbot.
+ Electronic Voting Machine
+ Arduino, Sensor
+ github://Electronic Voting Machine
+ May 2022
+ • It was a team project, in this project, we integrated IR Sensor, Touch Sensor, and Arduino to identify false voting during
+ elections.
+ • I took on the role of team lead, overseeing the implementation and programming of the system.
+ Achievements
+ • Selected for # include<her> cohort 4.0, embarking into Microsoft Azure development
+ • Ranked among the top 50,000 global contributors, triumphing in Hacktoberfest 2023
+ • Ranked top 0.15 percent in JEE-Advanced among 10 lakh students, including JEE-Mains
+ • Achieved 105th in Haryana NTSE(National Talent Search Exam) Stage-1 among 40,000 students
+ Positions of Responsibility
+ 2023
+ October, 2023
+ 2021
+ 2019
+ • Anesteemed Core Team Member of Xpecto, IIT Mandi’s Inter-College Technical Fest
+ December 2022- March 2023
+ • Tutor-Foundation of design practicum Mentored 3 groups of 15 students to build prototypes February 2023- May 2023
+ • Vice Chairperson, IEEE WiE AG, IIT Mandi
+ June 2023- Presen
