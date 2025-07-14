@@ -1,12 +1,11 @@
 
-import nltk
 import re
+import nltk
 from sklearn.feature_extraction.text import TfidfVectorizer
-
-nltk.download('stopwords')
 from nltk.corpus import stopwords
 
-# --------- Utils ---------
+nltk.download('stopwords')
+
 def clean_text(text):
     text = text.lower()
     text = re.sub(r'\W+', ' ', text)
@@ -14,39 +13,19 @@ def clean_text(text):
     words = [w for w in words if w not in stopwords.words('english')]
     return ' '.join(words)
 
-def extract_keywords(text, top_n=15):
+def extract_keywords(text, top_n=20):
     tfidf = TfidfVectorizer(max_features=top_n)
     tfidf_matrix = tfidf.fit_transform([text])
     return tfidf.get_feature_names_out()
 
-def read_file(filename):
-    with open(filename, 'r', encoding='utf-8') as f:
-        return f.read()
+def analyze_resume_vs_jd(resume_text, jd_text):
+    resume_clean = clean_text(resume_text)
+    jd_clean = clean_text(jd_text)
 
-# --------- Main ---------
-resume_raw = read_file('resume.txt')
-jd_raw = read_file('job_description.txt')
+    jd_keywords = extract_keywords(jd_clean, top_n=20)
 
-resume_clean = clean_text(resume_raw)
-jd_clean = clean_text(jd_raw)
+    matched = [k for k in jd_keywords if k in resume_clean]
+    missing = [k for k in jd_keywords if k not in resume_clean]
+    match_percent = int((len(matched) / len(jd_keywords)) * 100) if jd_keywords.any() else 0
 
-jd_keywords = extract_keywords(jd_clean, top_n=20)
-
-matched = []
-missing = []
-
-for keyword in jd_keywords:
-    if keyword in resume_clean:
-        matched.append(keyword)
-    else:
-        missing.append(keyword)
-
-match_percent = int((len(matched) / len(jd_keywords)) * 100)
-
-# --------- Output ---------
-print(f"✅ Match Score: {match_percent}%\n")
-print(f"🟢 Matched Keywords: {', '.join(matched)}")
-print(f"🔴 Missing Keywords: {', '.join(missing)}")
-
-if missing:
-    print("\n💡 Suggestion: Add these keywords in your skills or project section if applicable.")
+    return match_percent, matched, missing
