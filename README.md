@@ -6,13 +6,13 @@ An AI-powered resume analyzer that matches your resume with any job description 
 - 🔍 Shows matched & missing keywords
 - 💡 Suggests how to boost your resume for better chances in Google, Amazon, etc.
 
-Built with 💻 Python + NLP + Streamlit in under 2 hours 🚀
+Built with 💻 Python + NLP + Streamlit🚀
 
 ---
 
 ## 🔥 Live Demo
 
-🧪 [Click here to try the web app](#) — *(link coming soon once deployed)*  
+🧪 [[Click here to try the web app](https://resume-booster-ai.streamlit.app/)](#) — *(link coming soon once deployed)*  
 📌 Runs in browser, no login, instant results.
 
 ---
