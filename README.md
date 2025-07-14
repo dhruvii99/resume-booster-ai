@@ -2,13 +2,24 @@
 
 An AI-powered resume analyzer that matches your resume with any job description (JD) and:
 
+- 📄 Upload resume (PDF, DOCX, or TXT)
+- 📝 Paste job description
 - 📊 Calculates match percentage
 - 🔍 Shows matched & missing keywords
+- 🖥️ Simple Streamlit-based UI
 - 💡 Suggests how to boost your resume for better chances in Google, Amazon, etc.
 
-Built with 💻 Python + NLP + Streamlit🚀
-
 ---
+
+## 🛠️ Tech Stack
+
+- Python 🐍
+- Streamlit
+- NLTK
+- Scikit-learn
+- PyPDF2 & python-docx
+- streamlit-authenticator
+- YAML
 
 ## 🔥 Live Demo
 
@@ -35,7 +46,15 @@ Built with 💻 Python + NLP + Streamlit🚀
    - 💡 Suggestions to improve resume
 
 ---
+📦 Running the App Locally
+git clone https://github.com/dhruvii99/resume-booster-ai.git
+cd resume-booster-ai
 
+# (Create venv if needed)
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
 ## 💻 Tech Stack
 
 | Tool            | Purpose                          |
@@ -54,3 +73,15 @@ git clone https://github.com/your-username/resume-booster-ai.git
 cd resume-booster-ai
 pip install -r requirements.txt
 streamlit run app.py
+
+✨ Future Features (Coming Soon)
+🔍 GPT-powered resume keyword booster
+
+📤 LinkedIn auto-enhancer
+
+📊 Resume ranking for multiple JDs
+
+🌐 Deploy to Streamlit Cloud (public link)
+
+Created by Dhruvi khandelwal
+Made with ❤️ to help candidates crack their dream roles 💼
